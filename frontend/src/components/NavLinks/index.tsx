@@ -6,8 +6,8 @@ export default function NavLinks() {
     return (
         <nav className="container nav-container">
             <div className="text-nav-bar">
-                <NavLink to={"/"} className={({ isActive }) => isActive ? "is-active-link item-nav-bar" : "item-nav-bar"}>Início</NavLink>
-                <NavLink to={"/produtos"} className={({ isActive }) => isActive ? "is-active-link item-nav-bar" : "item-nav-bar"}>Produtos</NavLink>
+                <NavLink to={"/home"} className={({ isActive }) => isActive ? "is-active-link item-nav-bar" : "item-nav-bar"}>Início</NavLink>
+                <NavLink to={"/products"} className={({ isActive }) => isActive ? "is-active-link item-nav-bar" : "item-nav-bar"}>Produtos</NavLink>
                 <NavLink to={"/about"} className={({ isActive }) => isActive ? "is-active-link item-nav-bar" : "item-nav-bar"}>Sobre nós</NavLink>
             </div>
             <NavLink to={"/"}><img src={homeImg} alt="Início" className="home-img" /></NavLink>

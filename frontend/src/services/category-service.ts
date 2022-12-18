@@ -1,20 +1,23 @@
 import { CategoryDTO } from "../models/Category/category";
 
-export function getAll() {
+export function getCategories() {
     return categories;
 }
 
 let categories: CategoryDTO[] = [
     {
         "id": 1,
-        "name": "Computadores"
+        "name": "Computadores",
+        "routerName": "computers"
     },
     {
         "id": 2,
-        "name": "Eletrônicos"
+        "name": "Eletrônicos",
+        "routerName": "eletronics"
     },
     {
         "id": 3,
-        "name": "Livros"
+        "name": "Livros",
+        "routerName": "books"
     }
 ]

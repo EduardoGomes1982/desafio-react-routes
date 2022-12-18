@@ -16,11 +16,3 @@
     gap: 20px;
     color: var(--rr-color-text-color-primary);
 }
-
-.is-active-link {
-    font-weight: 700;
-}
-
-.item-nav-bar {
-    font-size: 16px;
-}
