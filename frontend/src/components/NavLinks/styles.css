@@ -1,0 +1,26 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-img {
+    width: 30px;
+    height: 28px;
+}
+
+.text-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--rr-color-text-color-primary);
+}
+
+.is-active-link {
+    font-weight: 700;
+}
+
+.item-nav-bar {
+    font-size: 16px;
+}
